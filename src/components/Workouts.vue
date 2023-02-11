@@ -14,7 +14,7 @@
   </div>
   <div v-else>
     <h2>You have no workouts :(</h2>
-    <a href="#">Create one?</a>
+    <router-link :to="{ name: 'AddWorkout' }">Create one?</router-link>
   </div>
 </template>
 
